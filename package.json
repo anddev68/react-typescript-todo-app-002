@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/react-typescript-todo-app-001 CI=false react-scripts build",
+    "build": "cross-env PUBLIC_URL=/react-typescript-todo-app-002 CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
