@@ -19,11 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "cross-env PUBLIC_URL=/react-typescript-todo-app-001 CI=false react-scripts build",
-    "postbuild": "move build docs",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
