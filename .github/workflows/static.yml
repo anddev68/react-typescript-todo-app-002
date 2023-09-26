@@ -23,15 +23,13 @@ concurrency:
 
 jobs:
   build:
-    environment:
-      name: PUBLIC_URL
-      url: /react-typescript-todo-app-001
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
+      - run: npm install
       - run: npm run build
       - uses: actions/upload-pages-artifact@v2
         with:
