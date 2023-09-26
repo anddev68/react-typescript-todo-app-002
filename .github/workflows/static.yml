@@ -23,6 +23,9 @@ concurrency:
 
 jobs:
   build:
+    environment:
+      name: PUBLIC_URL
+      url: /react-typescript-todo-app-001
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
